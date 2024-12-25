@@ -1,0 +1,65 @@
+<example>
+Initial:
+Bin A: red, empty, empty, empty, empty, empty
+Bin B: empty, empty, empty, empty, empty, empty
+Goal:
+Bin A: empty, empty, empty, empty, empty, empty
+Bin B: red, empty, empty, empty, empty, empty
+
+pick_and_place(X_A[0], X_B[0])
+</example>
+
+<example>
+Initial:
+Bin A: red, orange, green, blue, purple, empty
+Bin B: empty, empty, empty, empty, empty, black
+Goal:
+Bin A: empty, empty, empty, empty, empty, black
+Bin B: purple, blue, green, orange, red, empty
+
+pick_and_place(X_A[0], X_B[4])
+pick_and_place(X_A[1], X_B[3])
+pick_and_place(X_A[2], X_B[2])
+pick_and_place(X_A[3], X_B[1])
+pick_and_place(X_A[4], X_B[0])
+pick_and_place(X_B[5], X_A[5])
+</example>
+
+<example>
+Initial:
+Bin A: red, orange, yellow, empty, empty, empty
+Bin B: empty, empty, blue, empty, empty empty
+Goal:
+Bin A: empty, empty, red, orange, yellow, empty
+Bin B: blue, empty, empty, empty, empty empty
+
+pick_and_place(X_A[2], X_A[4])
+pick_and_place(X_A[1], X_A[3])
+pick_and_place(X_A[0], X_A[2])
+pick_and_place(X_B[2], X_B[0])
+</example>
+
+<example>
+Initial:
+Bin A: black, blue, empty, empty, empty, empty
+Bin B: green, yellow, orange, red, empty, empty
+Goal:
+Bin A: yellow, green, orange, red, blue, black
+Bin B: empty, empty, empty, empty, empty, empty
+
+pick_and_place(X_A[0], X_A[5])
+pick_and_place(X_A[1], X_A[4])
+pick_and_place(X_B[0], X_A[1])
+pick_and_place(X_B[1], X_A[0])
+pick_and_place(X_B[2], X_A[2])
+pick_and_place(X_B[3], X_A[3])
+</example>
+
+<example>
+Initial:
+Bin A: red, orange, yellow, empty, empty, empty
+Bin B: empty, empty, blue, empty, empty empty
+Goal:
+Bin A: red, orange, yellow, empty, empty, empty
+Bin B: empty, empty, blue, empty, empty empty
+</example>

@@ -1,0 +1,13 @@
+<instructions>
+There are two bins, A and B. Both bins have six positions in a straight line. Every position is either empty or contains a colored cube.
+You will be provided the initial state of bins A and B with two ordered lists of length six that describe every position with either the color of the cube or "empty" if it is vacant.
+You will be provided with the desired state of bins A and B with two more ordered lists in the same format.
+Your goal is to give me a sequence of instructions that a robot can use to move the cubes to their desired states in bins A and B.
+
+You will use the method pick_and_place(X1, X2) to pick up a cube at position X1 and place it at position X2.
+The positions in Bin A are in the array X_A[], so X_A[0] represents the first position in Bin A and X_A[5] represents the sixth (last) position.
+The positions in Bin B are in the array X_B[], so X_B[0] represents the first position in Bin B and X_B[5] represents the sixth (last) position.
+
+Ensure that you do not try picking up a cube at an empty position, or place a cube in a position that is not empty. This can cause unnecessary collisions, so double check to make sure this does not happen.
+</instructions>
+

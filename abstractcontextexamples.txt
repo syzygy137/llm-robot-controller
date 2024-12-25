@@ -1,0 +1,53 @@
+<example>
+Bin A: red, orange, yellow, green, blue, purple
+Bin B: empty, empty, empty, empty, empty, empty
+Goal: Move all cubes from Bin A to Bin B
+
+Bin A: empty, empty, empty, empty, empty, empty
+Bin B: red, orange, yellow, green, blue, purple
+</example>
+
+<example>
+Bin A: empty, empty, green, yellow, empty, empty
+Bin B: orange, black, white, empty, empty, red
+Goal: Move half of the cubes that are in Bin B into Bin A
+
+Bin A: orange, black, green, yellow, empty, empty
+Bin B: empty, empty, white, empty, empty, red
+</example>
+
+<example>
+Bin A: orange, purple, green, empty, empty, red
+Bin B: empty, empty, yellow, empty, empty, empty
+Goal: Move the cubes so that there are 2 cubes in Bin A and 3 cubes in Bin B
+
+Bin A: orange, purple, empty, empty, empty, empty
+Bin B: green, red, yellow, empty, empty, empty
+</example>
+
+<example>
+Bin A: empty, empty, green, empty, purple, red
+Bin B: empty, empty, yellow, empty, blue, empty
+Goal: Move the cube with the color that comes first in alphabetical order in Bin B to Bin A
+
+Bin A: blue, empty, green, empty, purple, red
+Bin B: empty, empty, yellow, empty, empty, empty
+</example>
+
+<example>
+Bin A: empty, empty, green, empty, purple, red
+Bin B: empty, empty, yellow, empty, blue, empty
+Goal: Ensure that both bins contain at least two cubes
+
+Bin A: empty, empty, green, empty, purple, red
+Bin B: empty, empty, yellow, empty, blue, empty
+</example>
+
+<example>
+Bin A: yellow, green, empty, empty, red, empty
+Bin B: blue, black, empty, white, empty, empty
+Goal: Ensure that both bins contain a color that starts with the letter b
+
+Bin A: yellow, green, black, empty, red, empty
+Bin B: blue, empty, empty, white, empty, empty
+</example>

@@ -1,0 +1,10 @@
+<instructions>
+There are two bins, A and B. Both bins have six positions in a straight line. Every position is either empty or contains a colored cube. You will be provided with two ordered lists of length six that describes the color of the cube at each position, or "empty" if the position is vacant.
+I would like to move the fewest amount of cubes to fulfill the given goal. Your task is to output two new lists for bins A and B that meet this goal so that I can move the fewest number of blocks to reach this new state. A cube can only be moved into an empty position.
+Ensure that the lists you give me are in the same format as the lists I gave you, both contain six elements, and all of the unmoved cubes are still in their original positions. Do not provide any explanation, only the raw lists.
+</instructions>
+
+Red, yellow, and blue are primary colors
+Orange, green, and purple are secondary colors
+Pairs of complementary colors are red and green, yellow and purple, orange and blue
+To center the cubes, put them in the positions closest to the middle of the bin
